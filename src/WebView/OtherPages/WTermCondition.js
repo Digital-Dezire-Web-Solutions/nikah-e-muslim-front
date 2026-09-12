@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const WTermCondition = () => {
   return (
@@ -13,10 +14,10 @@ const WTermCondition = () => {
             <strong>Effective Date: 11 Sep 2025</strong>
 
             <p>
-              By accessing or using Nikah-e-Muslim (“the Platform”), you agree to
-              comply with and be bound by these Terms & Conditions. If you do not
-              agree with any part of these terms, you must discontinue use of
-              the platform immediately.
+              By accessing or using Nikah-e-Muslim (“the Platform”), you agree
+              to comply with and be bound by these Terms & Conditions. If you do
+              not agree with any part of these terms, you must discontinue use
+              of the platform immediately.
             </p>
 
             <strong>1. Use of the Service</strong>
@@ -24,8 +25,7 @@ const WTermCondition = () => {
               Nikah-e-Muslim is a matrimonial and matchmaking platform created
               for Muslims seeking marriage through a halal, respectful, and
               value-based process. Users must be legally eligible for marriage
-              and must use the platform solely for genuine matrimonial
-              purposes.
+              and must use the platform solely for genuine matrimonial purposes.
             </p>
 
             <strong>2. User Eligibility & Conduct</strong>
@@ -41,9 +41,9 @@ const WTermCondition = () => {
             <p>
               To access certain features, users must create an account. You are
               responsible for maintaining the confidentiality of your login
-              credentials and for all activities conducted through your
-              account. Nikah-e-Muslim shall not be liable for unauthorized
-              account access caused by user negligence.
+              credentials and for all activities conducted through your account.
+              Nikah-e-Muslim shall not be liable for unauthorized account access
+              caused by user negligence.
             </p>
 
             <strong>4. Subscription & Payments</strong>
@@ -98,6 +98,20 @@ const WTermCondition = () => {
               These Terms & Conditions are governed by the laws of India. If you
               have any questions or concerns, please contact us through the
               official support channels available on Nikah-e-Muslim.
+            </p>
+            <strong>11. Account Deletion</strong>
+            <p>
+              Users may request deletion of their Nikah-e-Muslim account at any
+              time through the account settings or by contacting our support
+              team. Upon successful verification of the request, your profile
+              will be removed from public view and your account will be
+              permanently deleted within a reasonable period, unless retention
+              of certain information is required by applicable law, fraud
+              prevention, dispute resolution, or other legitimate business
+              purposes. Once the account is permanently deleted, it cannot be
+              recovered, and any active subscription or unused benefits will be
+              governed by our Return & Refund Policy.{" "}
+              <Link to={"/contact-us"}>Delete Account</Link>
             </p>
           </div>
         </div>
